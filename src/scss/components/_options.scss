@@ -1,0 +1,50 @@
+.options {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+    margin-left: 1.6rem;
+    margin-right: 1.6rem;
+
+    &>* {
+        width: 15%;
+    }
+
+    &-label {
+        position: relative;
+
+        &::after {
+            font-family: FontAwesome;
+            content: "\f078";
+            color: $color-primary;
+            position: absolute;
+            top: 50%;
+            right: 1.7rem;
+            transform: translateY(-50%);
+            pointer-events: none;
+            font-size: 1.2rem;
+        }
+    }
+
+    &-label>select {
+        width: 100%;
+        color: $color-primary;
+        font-size: 1.6rem;
+        height: 4.2rem;
+        padding: 0 1rem;
+        border: 1px solid $color-gold-light;
+        appearance: none;
+        letter-spacing: .1rem;
+        position: relative;
+        outline: none;
+
+
+
+    }
+
+}
+
+option {
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
