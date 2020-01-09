@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6c53a4773f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./dist/style.css?cb=1578550627382">
+</head>
+
+<body>
+    <nav class="nav">
+
+        <div class="nav__list u__container">
+
+            <li class="nav__item">
+                <a href="#" class="nav__logo"><span class="nav__logo--primary">Ipsums</span><span
+                        class="nav__logo--secondary"> <br> dev test task</span></a>
+            </li>
+            <li class="nav__item">
+                <a href="#" class="nav__link nav__products">Browse products</a>
+            </li>
+            <li class="nav__item u-margin-right-auto">
+                <a href="#" class="nav__link nav__info">Company info
+                </a>
+            </li>
+            <li class="nav__item">
+                <a href="#" class="nav__link nav__shop">
+                    <div class="nav__cart">
+                        <i class="fas fa-shopping-cart nav__cart--icon"></i>
+                        <span class="nav__cart--number">2</span>
+                    </div>
+                    <div class="nav__total">
+
+                        <span class="nav__total--text">Total:</span>
+                        <span class="nav__total--price"> $11.800,00</span> </span>
+                    </div>
+                </a>
+            </li>
+            <li class="nav__item">
+                <a href="#" class="nav__link nav__name">
+                    <i class="far fa-user-circle fa-xs nav__name--icon"></i>
+                    <span>Company Name</span> </a>
+            </li>
+        </div>
+    </nav>
+    <header class="header">
+        <div class="header__background-image"></div>
+
+        <div class="u__container">
+            <div class="header__watch"><img src="./dist/img/watch-1.png" alt="slider watch" class="slider__img"></div>
+            <div class="slider">
+
+                <div class="slider__slide fade">
+                    <p class="slider__name">G-shock</p>
+                    <h1 class="slider__heading">Venice silver automatic</h1>
+                    <div class="slider__btn">
+                        <a href="#" class="slider__btn--primary">View watch</a href="#">
+                        <a href="#" class="slider__btn--secondary"><span class='slider__btn--text'>Explore G-SHOCK
+                            </span>
+                            <div class="slider__btn--arrow">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="slider__slide fade">
+                    <p class="slider__name">G shock</p>
+                    <h1 class="slider__heading">Venice silver automatic 2</h1>
+                    <div class="slider__btn">
+                        <a href="#" class="slider__btn--primary">View watch</a href="#">
+                        <a href="#" class="slider__btn--secondary"><span class='slider__btn--text'>Explore G-SHOCK
+                            </span>
+                            <div class="slider__btn--arrow">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="slider__slide fade">
+                    <p class="slider__name">G shock</p>
+                    <h1 class="slider__heading">Venice silver automatic 3</h1>
+                    <div class="slider__btn">
+                        <a href="#" class="slider__btn--primary">View watch</a href="#">
+                        <a href="#" class="slider__btn--secondary"><span class='slider__btn--text'>Explore G-SHOCK
+                            </span>
+                            <div class="slider__btn--arrow">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="slider__slide fade">
+                    <p class="slider__name">G shock</p>
+                    <h1 class="slider__heading">Venice silver automatic 4</h1>
+                    <div class="slider__btn">
+                        <a href="#" class="slider__btn--primary">View watch</a href="#">
+                        <a href="#" class="slider__btn--secondary"><span class='slider__btn--text'>Explore G-SHOCK
+                            </span>
+                            <div class="slider__btn--arrow">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="slider__dots">
+                        <span class="slider__dot" onclick="currentSlide(1)"></span>
+                        <span class="slider__dot" onclick="currentSlide(2)"></span>
+                        <span class="slider__dot" onclick="currentSlide(3)"></span>
+                        <span class="slider__dot" onclick="currentSlide(4)"></span>
+                    </div>
+                </div>
+                <div class="slider__arrow">
+
+
+                    <div class="slider__arrow--1" onclick="plusSlides(-1)">
+                        <a class="prev slider__arrow--prev">
+                            <div class="slider__arr--prev"></div>
+                        </a>
+                        <div class=" slider__hover slider__hover--prev"><img src="./dist/img/watch-small-0.png"
+                                alt="zzz">
+                        </div>
+                    </div>
+                    <div class="slider__arrow--2" onclick="plusSlides(1)">
+                        <a class="next slider__arrow--next">
+                            <div class="slider__arr--next"></div>
+                        </a>
+                        <div class="slider__hover--next"><img src="./dist/img/watch-small-2.png" alt="zzz"></div>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="ordering-system">
+
+    </section>
+    <section class="company-timeline">
+
+    </section>
+
+    <footer class="footer">
+        <div class="u-container">
+            <div class="footer__lists">
+                <div class="footer__list">
+                    <div class="footer__header">Links</div>
+                </div>
+                <div class="footer__list">
+                    <div class="footer__header">Dev test</div>
+                </div>
+                <div class="footer__list">
+                    <div class="footer__header"> Newsletter</div>
+                </div>
+            </div>
+            <div class="footer__copy">
+                <p>&copy; DEVTEST 2109 All Right Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./dist/all.js?cb=1578550627382"></script>
+</body>
+
+</html>

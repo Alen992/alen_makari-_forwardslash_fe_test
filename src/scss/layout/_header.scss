@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    // height: 85vh;
+    height: 81.5rem;
+    border-bottom: .4rem solid $color-blue-dark-2;
+    position: relative;
+    background-color: $color-cream;
+
+    &__watch {
+        position: absolute;
+        top: 50%;
+        left: 51%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    &__background-image {
+        background-image: url(./img/headerBg.png);
+        background-size: cover;
+        background-position: bottom;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 50%;
+        height: 100%;
+
+    }
+
+}

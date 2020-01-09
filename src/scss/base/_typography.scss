@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Butler';
+    src: url('./fonts/butler-font/Butler-Bold.woff2') format('woff2'),
+        url('./fonts/butler-font/Butler-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+body {
+    font-size: 1.8rem;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.slider__heading {
+    font-size: 8rem;
+    font-family: 'Butler';
+    color: $color-blue-dark-2;
+    margin-bottom: 6rem;
+    line-height: 1.1;
+    letter-spacing: 0.1rem;
+}
