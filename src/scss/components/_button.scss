@@ -122,6 +122,16 @@
 
 
 .btn__add {
-    width: 13.5rem;
-    height: 5rem;
+    width: 13.7rem;
+    height: 5.5rem;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: .4rem;
+    background-color: $color-blue-dark-2;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
