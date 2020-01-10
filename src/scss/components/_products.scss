@@ -1,0 +1,137 @@
+.products {
+
+    &__header {
+        display: flex;
+        width: 100%;
+        font-size: 1.6rem;
+        color: $color-blue-ligh-2 !important;
+        padding-bottom: 1.4rem;
+        border-bottom: 1px solid black;
+    }
+
+    &__header-star {
+        width: 5.8%;
+        padding-left: .2rem;
+    }
+
+    &__header-image {
+        width: 6.5%;
+    }
+
+    &__header-brand {
+        width: 22%;
+    }
+
+    &__header-item-no {
+        width: 17.6%;
+    }
+
+    &__header-listing {
+        width: 12.4%;
+    }
+
+    &__header-wholesale {
+        width: 13.7%;
+    }
+
+    &__header-qty {
+        width: 7.8%;
+    }
+
+
+
+
+    &__product {
+        display: flex;
+        height: 10.7rem;
+        font-size: 1.6rem;
+
+    }
+
+    &__main {
+        display: flex;
+        height: 10.7rem;
+        font-size: 1.6rem;
+        width: 100%;
+    }
+
+    &__star {
+        width: 5.8%;
+        padding-left: .2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $color-primary;
+        font-size: 1.2rem;
+    }
+
+    &__image {
+        width: 6.5%;
+        display: flex;
+        align-items: center;
+    }
+
+    &__brand {
+        width: 22%;
+        display: flex;
+        align-items: center;
+
+    }
+
+    &__name {
+        font-size: 1.8rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: $color-blue-dark-2;
+    }
+
+    &__collection {
+        color: $color-primary;
+
+    }
+
+    &__item-no {
+        width: 17.6%;
+        color: $color-blue-dark-2;
+        display: flex;
+        align-items: center;
+    }
+
+    &__listing {
+        width: 12.4%;
+        color: $color-primary;
+        display: flex;
+        align-items: center;
+    }
+
+    &__wholesale {
+        width: 13.7%;
+        color: $color-primary;
+        display: flex;
+        align-items: center;
+    }
+
+    &__qty {
+        width: 7.8%;
+        color: $color-primary;
+        display: flex;
+        align-items: center;
+    }
+
+    &__icon {
+        display: flex;
+        align-items: center;
+    }
+
+    &__add {
+        display:flex;
+        justify-content:center;
+        align-items: center;
+    }
+
+    &__cart {
+        
+    }
+
+}
+
